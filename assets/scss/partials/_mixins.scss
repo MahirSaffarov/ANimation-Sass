@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+@mixin main_type(){
+    font-family: 'Montserrat', sans-serif;
+    color: #1B1B1B;
+    font-size: 14px;
+}
+@mixin second-type(){
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 41px;
+}
+@mixin third_type(){
+    font-family: 'Lora', serif;
+    color: #6D6A6A;
+    font-size: 17px;
+}

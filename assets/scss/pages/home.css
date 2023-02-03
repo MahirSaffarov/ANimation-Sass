@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+#nav .container-fluid {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+#nav .container-fluid .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 115px;
+}
+#nav .container-fluid .left .img img {
+  width: 225px;
+  height: 30px;
+}
+#nav .container-fluid .center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px;
+}
+#nav .container-fluid .center ul {
+  display: flex;
+  list-style: none;
+  gap: 25%;
+  padding-top: 2%;
+}
+#nav .container-fluid .center ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  text-decoration: none;
+}
+#nav .container-fluid .center ul li a:hover {
+  text-decoration: underline;
+}
+#nav .container-fluid .right {
+  display: flex;
+  justify-content: flex-start;
+  height: 115px;
+  align-items: center;
+  gap: 13%;
+  padding-top: 1%;
+}
+#nav .container-fluid .right i {
+  font-size: 20px;
+}
+#nav .container-fluid .right .search {
+  rotate: 90deg;
+}
+#nav .container-fluid .right span {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+}
+
+#slide {
+  background-color: #f7f7f9;
+}
+#slide .container-fluid .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 575px;
+}
+#slide .container-fluid .left .about h1 {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 41px;
+  width: 320px;
+}
+#slide .container-fluid .left .about h1 span {
+  color: #FF0000;
+}
+#slide .container-fluid .left .about p {
+  width: 405px;
+  font-family: "Lora", serif;
+  color: #6D6A6A;
+  font-size: 17px;
+}
+#slide .container-fluid .right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 575px;
+}
+#slide .container-fluid .right .img img {
+  width: 575px;
+}
+
+#flowers-nav .container {
+  max-width: 1548px !important;
+}
+#flowers-nav .container .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 110px;
+  width: 100%;
+}
+#flowers-nav .container .left ul {
+  list-style: none;
+  display: flex;
+  gap: 10%;
+}
+#flowers-nav .container .left ul li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+#flowers-nav .container .left ul li a:hover {
+  color: #F34F3F;
+}
+#flowers-nav .container .left ul li:nth-child(1) a {
+  color: #F34F3F;
+}
+#flowers-nav .container .right {
+  width: 94%;
+  height: 110px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+#flowers-nav .container .right ul {
+  list-style: none;
+  display: flex;
+  gap: 5%;
+}
+#flowers-nav .container .right ul li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+#flowers-nav .container .right ul li a:hover {
+  color: #F34F3F;
+}
+
+#flowers .container-fluid {
+  max-width: 1500px !important;
+}
+#flowers .container-fluid .flex {
+  display: flex;
+  justify-content: center;
+}
+#flowers .container-fluid .flow-img .sold {
+  position: relative;
+}
+#flowers .container-fluid .flow-img .sold span {
+  position: absolute;
+  background-color: #2B2B2B;
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 41px;
+  color: #FFFFFF;
+  font-size: 16px;
+  left: 4%;
+  top: 3%;
+  padding: 5px 13px;
+}
+#flowers .container-fluid .flow-img .sale {
+  position: relative;
+}
+#flowers .container-fluid .flow-img .sale span {
+  position: absolute;
+  background-color: #FFFFFF;
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 41px;
+  color: #2B2B2B;
+  font-size: 16px;
+  left: 4%;
+  top: 3%;
+  padding: 5px 13px;
+}
+#flowers .container-fluid .flow-img .img {
+  width: 340px;
+  height: auto;
+}
+#flowers .container-fluid .flow-img .img img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+#flowers .container-fluid .flow-img .img img:hover {
+  scale: 1.04;
+}
+#flowers .container-fluid .about {
+  line-height: 5px;
+  text-align: center;
+}
+#flowers .container-fluid .about p {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  font-weight: 600;
+}
+#flowers .container-fluid .about .price {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  color: #AFAFAF;
+}
+#flowers .container-fluid .about .new-price {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  color: #2D2B2B;
+}
+#flowers .container-fluid .about .buy {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  color: #AFAFAF;
+  display: none;
+}
+#flowers .container-fluid .for-anime:hover .about .price {
+  display: none;
+}
+#flowers .container-fluid .for-anime:hover .about .new-price {
+  display: none;
+}
+#flowers .container-fluid .for-anime:hover .about .buy {
+  display: block;
+}
+
+#video .container-fluid {
+  background-color: #f7f7f7;
+}
+#video .container-fluid .video {
+  margin-left: 12%;
+  margin-top: 10%;
+  margin-bottom: 8%;
+  overflow: hidden;
+}
+#video .container-fluid .video .img {
+  transition: all 0.5s;
+}
+#video .container-fluid .video .img img {
+  width: 650px;
+  height: 420px;
+}
+#video .container-fluid .video .img:hover {
+  scale: 1.05;
+}
+#video .container-fluid .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#video .container-fluid .flex .about {
+  margin-top: 2%;
+}
+#video .container-fluid .flex .about h1 {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 41px;
+  color: #2B2B2B;
+  font-size: 38px;
+  width: 55%;
+}
+#video .container-fluid .flex .about h1 span {
+  color: #F34F3F;
+}
+#video .container-fluid .flex .about p {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  font-family: "Lora", serif;
+  color: #6D6A6A;
+  font-size: 17px;
+  width: 70%;
+}
+#video .container-fluid .flex .about .heart {
+  display: flex;
+  gap: 4%;
+  line-height: 300%;
+}
+#video .container-fluid .flex .about .heart img {
+  width: 23px;
+}
+#video .container-fluid .flex .about .heart span {
+  font-family: "Lora", serif;
+  color: #6D6A6A;
+  font-size: 17px;
+}
+
+#experts .container-fluid {
+  max-width: 1500px !important;
+}
+#experts .container-fluid .up {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+#experts .container-fluid .up h1 {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 41px;
+  margin-bottom: 2%;
+}
+#experts .container-fluid .up p {
+  font-family: "Lora", serif;
+  color: #6D6A6A;
+  font-size: 17px;
+}
+#experts .container-fluid .img {
+  display: flex;
+  justify-content: center;
+}
+#experts .container-fluid .about {
+  text-align: center;
+  line-height: 10px;
+  margin-bottom: 42%;
+}
+#experts .container-fluid .about p {
+  margin-top: 7%;
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+}
+#experts .container-fluid .about span {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  color: #AFAFAF;
+}
+
+#subscribe .container-fluid {
+  background-image: url("../../img/h3-background-img.jpg");
+  height: 80vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#subscribe .container-fluid .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#subscribe .container-fluid .flex .subscribe {
+  text-align: center;
+}
+#subscribe .container-fluid .flex .subscribe h1 {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 41px;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 7%;
+}
+#subscribe .container-fluid .flex .subscribe form input {
+  width: 467px;
+  height: 60px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  padding-left: 3%;
+  color: #6D6A6A;
+}
+#subscribe .container-fluid .flex .subscribe form button {
+  width: 168px;
+  height: 60px;
+  background-color: #F34F3F;
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  position: relative;
+  left: -5px;
+}
+
+#blog {
+  background-color: #f8f8f8;
+}
+#blog .container-fluid {
+  max-width: 1500px;
+}
+#blog .container-fluid .flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#blog .container-fluid .flex .blog {
+  text-align: center;
+}
+#blog .container-fluid .flex .blog h1 {
+  margin-top: 20%;
+  margin-bottom: 5%;
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 41px;
+}
+#blog .container-fluid .flex .blog p {
+  font-family: "Lora", serif;
+  color: #6D6A6A;
+  font-size: 17px;
+  margin-bottom: 10%;
+}
+#blog .container-fluid .img {
+  overflow: hidden;
+  position: relative;
+}
+#blog .container-fluid .img img {
+  width: 520px;
+  height: 300px;
+  transition: all 0.4s;
+}
+#blog .container-fluid .img img:hover {
+  scale: 1.05;
+}
+#blog .container-fluid .img span {
+  position: absolute;
+  background-color: white;
+  top: 3%;
+  left: 1.5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  font-size: 12px;
+  font-weight: 600;
+}
+#blog .container-fluid .about {
+  text-align: center;
+}
+#blog .container-fluid .about h2 {
+  margin-top: 7%;
+  margin-bottom: 5%;
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 41px;
+  font-size: 22px;
+}
+#blog .container-fluid .about p {
+  font-family: "Lora", serif;
+  color: #6D6A6A;
+  font-size: 17px;
+  font-size: 15px;
+  margin-bottom: 20%;
+}
+
+#comment .img {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+#comment .img img {
+  width: 100px;
+  height: 100px;
+}
+#comment .comment {
+  text-align: center;
+  margin-bottom: 5%;
+}
+#comment .comment p {
+  font-family: "Lora", serif;
+  color: #6D6A6A;
+  font-size: 17px;
+  font-size: 24px;
+  font-style: italic;
+  color: #4b4747;
+  margin-bottom: 4%;
+}
+#comment .comment span {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+}
+
+#foot {
+  background-color: #fefaf3;
+}
+#foot .container-fluid {
+  max-width: 1470px;
+}
+#foot .container-fluid .same {
+  margin-top: 25%;
+  line-height: 30px;
+  margin-bottom: 25%;
+}
+#foot .container-fluid .same h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  margin-bottom: 8%;
+  font-weight: bold;
+}
+#foot .container-fluid .same ul {
+  list-style: none;
+  position: relative;
+  right: 9%;
+}
+#foot .container-fluid .same ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  text-decoration: none;
+  color: #8B8B8B;
+  transition: all 0.5;
+}
+#foot .container-fluid .same ul li a:hover {
+  color: #F34F3F;
+}
+#foot .container-fluid .line {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(175, 175, 175, 0.2);
+  margin-bottom: 2%;
+}
+#foot .container-fluid .left p {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  color: #AFAFAF;
+  font-size: 13px;
+}
+#foot .container-fluid .left p a {
+  color: black;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+#foot .container-fluid .left p a:hover {
+  color: #F34F3F;
+}
+#foot .container-fluid .img {
+  display: flex;
+  justify-content: center;
+}
+#foot .container-fluid .right {
+  display: flex;
+  justify-content: end;
+  gap: 5%;
+}
+#foot .container-fluid .right span {
+  font-family: "Montserrat", sans-serif;
+  color: #1B1B1B;
+  font-size: 14px;
+  transition: all 0.5s;
+  color: #AFAFAF;
+  font-size: 12px;
+}
+#foot .container-fluid .right span:hover {
+  color: #F34F3F;
+}/*# sourceMappingURL=home.css.map */
